@@ -1,0 +1,478 @@
+.googleHomePageImage {
+	margin: auto;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 272px;
+    height: 92px;
+}
+
+.searchBox{
+	margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.searchBox input {
+	width: 585px;
+    box-sizing: border-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: white;
+    padding: 13px 40px 13px 20px;
+    background-image: url('../images/Google_microphone_logo.png');
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+    background-size: 15px 20px;
+    -webkit-box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+    -moz-box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+	box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+}
+
+.searchBox input:focus {
+	outline: none;
+	-webkit-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	-moz-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	transition-duration: 0.25s, 0.15s, 0.15s, 0.25s, 0.25s, 0.15s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.searchBox input:hover{
+	-webkit-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	-moz-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+	transition-duration: 0.25s, 0.15s, 0.15s, 0.25s, 0.25s, 0.15s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.buttons {
+	margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.serachButton {
+    background-color: #f5f5f5; /* Green */
+    border: none;
+    color: #757575;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 5px;
+    font-weight: bold;
+}
+
+
+.serachButton:hover {
+	background-color: #f1f1f1;
+	color: #323232;
+}
+
+.footerFix {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+.footerFix ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    color: #777;
+}
+
+.footerFix ul li {
+    float: left;
+}
+
+
+.footerFix ul li a {
+    display: block;
+    color: #777;
+    text-align: center;
+    padding: 12px 13px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerFix ul li a:hover {
+    text-decoration: underline;
+}
+
+.onTypeNavigationBar {
+    display: none;
+}
+
+.onTypeNavigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fafafa;
+     border-bottom: 1px solid #e4e4e4;
+}
+
+.onTypeNavigationBar li {
+    float: left;
+}
+
+
+.onTypeNavigationBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+    text-decoration: none;
+}
+
+
+.onTypeNavigationBar li a img {
+    width: 120px;
+    height: 42px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.onTypeNavigationBar li a input {
+    width: 630px;
+    box-sizing: border-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: white;
+    padding: 13px 110px 13px 20px;
+    background-image: url('../images/Google_microphone_logo.png');
+    background-repeat: no-repeat;
+    background-position: 89% 50%;
+    background-size: 13px 20px;
+    -webkit-box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+    -moz-box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+    box-shadow: 1px 3px 18px -6px rgba(143,143,143,0.59);
+
+}
+
+.onTypeNavigationBar li a input:hover {
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    -moz-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    transition-duration: 0.25s, 0.15s, 0.15s, 0.25s, 0.25s, 0.15s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.onTypeNavigationBar li a input:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    -moz-box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    box-shadow: 0px 5px 20px -5px rgba(143,143,143,0.67);
+    transition-duration: 0.25s, 0.15s, 0.15s, 0.25s, 0.25s, 0.15s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+
+@media(max-width: 768px) {
+    .onTypeNavigationBar li a input{
+        width: 250px;
+        background-image: none;
+    }
+
+    .onTypeNavigationBar li a img {
+        margin: 10px 30px 0px 10px;
+    }
+}
+.searchIcon {
+    position: relative;
+    z-index: 1;
+    left: -45px;
+    top: 1px;
+    color: #4285f4;
+    cursor:pointer;
+    width: 0;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+
+.onTypeNavigationBar ul span ul {
+    border-bottom: none;
+}
+
+.onTypeNavigationBar ul span ul li {
+    float: left;
+    padding: 0px 10px;
+}
+.onTypeNavigationBar ul span ul li a {
+    color: #777;
+    font-family: 'Roboto','sans-serif';
+    font-size: 13px;
+}
+
+#hiddenCategory {
+    display: none;
+}
+
+.active {
+    color: #4285f4 !important;
+    font-weight: bold;
+    border-bottom: 3px solid #4285f4;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+
+#imageGrid {
+    display: none;
+    width: 98%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    font-size: 0;
+}
+
+#imageGrid .spacer{
+	width: 100%;
+	height: 0px;
+	transition:height 0.3s ease;
+}
+#imageGrid .spacer.open{
+	height:450px;
+}
+#imageGrid .spacer .arrow{
+	position: relative;
+	width: 0;
+  height: 0px;
+  border: 10px solid;
+  top: -20px;
+	opacity: 0;
+  border-color: transparent transparent #222 transparent;
+	transition: opacity .3s ease;
+}
+#imageGrid .spacer.open .arrow{
+	opacity: 1;
+}
+
+#imageGrid div:not(.spacer) {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+#imageGrid div img {
+   border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+#imageGrid div:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+#imageGrid div:hover img {
+  transform: scale(1.15);
+}
+
+
+@media screen and (min-width: 50em) {
+  #imageGrid div:not(.spacer) {
+    width: calc(25% - 6px);
+  }
+
+  #imageGrid div:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  #imageGrid div:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+#collapsableImageDiv {
+    height: auto;
+    width: 100%;
+    display:none;
+    position: absolute;
+}
+
+.leftSideImageOfCollapse {
+    background-color: #222;
+    width: 65%;
+    float: left;
+    position: relative;
+    height: 440px;
+}
+
+.leftSideImageOfCollapse i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left:0;
+    color: #aaa;
+    padding: 0 20px;
+    /*border:1px solid #141414;*/
+    font-weight: 100;
+}
+
+.rightSideOfCollapse {
+    background-color: #222;
+    width: 35%;
+    float: left;
+    height: 440px;
+    position: relative;
+    border-left: 1px solid #141414;
+}
+
+.rightSideOfCollapse i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    color: #aaa;
+    padding: 0 20px;
+    font-weight: 100;
+}
+
+#closeCollpase {
+    position: absolute;
+    top: 4%;
+    right: 0;
+}
+
+#closeCollpase i {
+    color: #d6d6d6;
+}
+
+.collapseLargIamge {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftTopCollapse {
+    margin: 30px 30px 10px 20px;
+}
+
+.leftTopCollapse a:first-child {
+    font-size: 20px;
+    text-decoration: none;
+    color: #d6d6d6;
+    font-family: 'Roboto','sans-serif';
+}
+
+.leftTopCollapse a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.leftTopCollapse a:nth-child(3) {
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto','sans-serif';
+}
+
+.leftTopCollapse a:nth-child(3):hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.leftTopCollapse p {
+    color: #888;
+    font-size: 13px;
+    font-family: 'Roboto','sans-serif';
+}
+
+.morInforCategory {
+    padding-left: 20px;
+    position: relative;
+}
+.morInforCategory ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.morInforCategory li {
+    float: left;
+    background-color: #333;
+    margin: 0 5px;
+    border:1px solid #141414;
+}
+
+.morInforCategory li a {
+    display: block;
+    color: #d6d6d6;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: 'Roboto','sans-serif';
+    font-size: 11px;
+}
+
+.morInforCategory li a:hover {
+    background-color: #454545;
+}
+
+.imageTileRightBottom {
+    margin: 15px 40px 10px 0px;
+    border-top: 1px solid #141414;
+    padding: 10px 10px 10px 20px;
+}
+
+.imageTileRightBottom p:first-child{
+    color: #888;
+    font-size: 13px;
+    font-family: 'Roboto','sans-serif';
+}
+
+
+.imageTileRightBottom p:last-child{
+    color: #888;
+    font-size: 11px;
+    font-family: 'Roboto','sans-serif';
+}
+
+.activeSmallImageTile {
+    border:1px solid #141414;
+    outline: 1px solid white;
+}
+
+.smallImageTileRightBottom img {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: inline-block;
+    width: 80px;
+    height:80px;
+}
+
+.smallImageTileRightBottom img:hover{
+    border:1px solid #141414;
+    outline: 1px solid white;
+}

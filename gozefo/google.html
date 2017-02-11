@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+        <!-- ****** faviconit.com favicons ****** -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon/google_favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/images/favicon/google_favicon.ico">
+    <!-- ====================== -->
+
+    <!-- Style -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+
+        html {
+          height: 100%;
+          box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+          box-sizing: inherit;
+        }
+
+        body {
+          position: relative;
+          margin: 0;
+          min-height: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+	<div id="homePageInputDiv">
+
+		<div class="googleHomePageImage">
+			<img src="images/google_logo.png">
+		</div>
+
+		<div class="searchBox">
+			<input type="text" title = "Search" name="search" autofocus oninput="hidHomePageInputDiv()" id="hoemPageInputBox">
+		</div>
+
+		<div class="buttons">
+			<button class="serachButton">Google Search</button>
+			<button class="serachButton">I'm Feeling Lucky</button>
+		</div>
+		
+		<div class="footerFix">
+			<ul>
+			  <li><a href="#advertising">Advertising</a></li>
+			  <li><a href="#bussiness">Bussiness</a></li>
+			  <li><a href="#about">About</a></li>
+			  <li style="float:right"><a href="#about">Settings</a></li>
+			  <li style="float:right"><a href="#about">Terms</a></li>
+			  <li style="float:right"><a href="#about">Privacy</a></li>
+			</ul> 
+		</div>
+
+	</div>
+
+	<div class="onTypeNavigationBar" id="topDivision">
+		<ul>
+		  <li><a href=""><img src="images/google_logo.png"></a></li>
+		  <li>
+		  	<a href="#inputBox">
+		  		<input type="text" name="onTypeInputBox" id="topInputBox" list="countries" autocomplete="on" onkeydown="enterKey(this)">
+		  		<i class="fa fa-search searchIcon" onclick="getImages()"></i>
+		  	</a>
+		  	
+		  	<datalist id="countries"></datalist>
+		  	
+		  	<span id="hiddenCategory">
+		  		<ul>
+		  			<li><a href="#all">All</a></li>
+		  			<li><a href="#Images" id="activeImageLink">Images</a></li>
+		  			<li><a href="#videos">Videos</a></li>
+		  			<li><a href="#news">News</a></li>
+		  		</ul>
+		  	</span>
+		  </li>
+		</ul>
+	</div>
+
+	<!-- image gallery -->
+
+	<div id="imageGrid">
+	</div>
+
+	<!-- cllapsable div -->
+
+	<div id="collapsableImageDiv">
+
+		<div class="leftSideImageOfCollapse">
+			<a href="#previous" id="leftChiveronButton">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i>
+			</a>	
+			<a href="#img" class="collapseLargIamge">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg08.jpg">
+			</a>
+		</div>
+		<div class="rightSideOfCollapse">
+			<a href="#next" id="rightChiveronButton">
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
+			</a>
+			<a href="#close" id="closeCollpase" onclick="closeCollpase()">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</a>
+			<div class="leftTopCollapse">
+				<a href="#description">India | The Commonwealth</a><br>
+				<a href="#MoreInforOfLink">The Commonwealth - 300 x 337 - Search by Image</a>
+				<p>More Information</p>
+			</div>
+
+			<div class="morInforCategory">
+				<ul>
+					<li><a href="#visitPage">Visit <br>page</a></li>
+					<li><a href="#viewImage">View <br> image</a></li>
+					<li><a href="#save">Save<br>image</a></li>
+					<li><a href="#viewSaved">View<br>saved</a></li>
+					<li><a href="#share">Share<br>image</a></li>
+				</ul>
+			</div>
+
+			<div class="imageTileRightBottom">
+				<p>Related images:</p>
+				<div class="smallImageTileRightBottom">
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg" class="activeSmallImageTile">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+					<a href="#image1">
+						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/placeimg06.jpg">
+					</a>
+				</div>
+				<p>Image may be subjected to copyright - Send feedback</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
